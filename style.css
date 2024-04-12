@@ -1,0 +1,132 @@
+* {
+    background-color: red;
+
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10px;
+    background-color: black;
+}
+
+.columna {
+
+    height: 28%;
+
+    background-color: transparent;
+
+   /* outline: 1px solid cyan; */
+}
+
+.punto {
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.punto-medio{
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+
+    border-radius: 50%;
+    margin: 5.4px;
+}
+
+.punto-invisible{
+    width: 15px;
+    height: 15px;
+
+    background-color: transparent;
+
+    border-radius: 50%;
+    margin: 5.4px;
+}
+
+.mini-columna{
+    height: 4%;
+
+    background-color: transparent;
+
+   /* outline: 1px solid cyan; */
+}
+
+#dado1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#columna3-dado2 {
+    display: flex;
+    justify-content: end;
+}
+
+#columna2-dado3{
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado3{
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+}
+
+#columna1-dado4{
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado4{
+    display: flex;
+    justify-content: center;
+}
+
+#columna1-dado5{
+    display: flex;
+    justify-content: center;
+}
+
+#columna2-dado5{
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado5{
+    display: flex;
+    justify-content: center;
+}
+
+#columna1-dado6{
+    display: flex;
+    justify-content: center;
+}
+
+#columna2-dado6{
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado6{
+    display: flex;
+    justify-content: center;
+}
